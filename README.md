@@ -47,24 +47,24 @@ Foreign key goes on the “many” side of every one-to-many.
 
 
 ## Entity Relationship Diagram
-![ERD](docs/ERD.png)
+![ERD](docs/screenshot/ERD.png)
 
 ## Screenshots
 
 ### 1. Application running and Hibernate creating tables
-![App running](docs/screenshots/app-running.png)
+![App running](docs/screenshot/app-running.png)
 
 ### 2. Generated tables in PostgreSQL (7 tables)
-![Tables list](docs/screenshots/tables.png)
+![Tables list](docs/screenshot/tables.png)
 
 ### 3. Foreign key relationships
-![Foreign keys](docs/screenshots/foreign-keys.png)
+![Foreign keys](docs/screenshot/foreign-keys.png)
 
 ### 4. Registrations table (join entity)
-![Registrations columns](docs/screenshots/registrations-columns.png)
+![Registrations columns](docs/screenshot/registrations-columns.png)
 
 ### 5. Lecturer-Course join table
-![Join table](docs/screenshots/join-table.png)
+![Join table](docs/screenshot/join-table.png)
 
 ### 6. Schema
-![Sample data](docs/screenshots/schema.png)
+![Sample data](docs/screenshot/schema.png)
