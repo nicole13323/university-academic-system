@@ -55,7 +55,7 @@ Foreign key goes on the “many” side of every one-to-many.
 ![App running](docs/screenshoot/app-running.png)
 
 ### 2. Generated tables in PostgreSQL (7 tables)
-![Tables list](docs/screenshoot/tables.png)
+![Tables list](docs/screenshoot/Tables.png)
 
 ### 3. Foreign key relationships
 ![Foreign keys](docs/screenshoot/foreign-keys.png)
