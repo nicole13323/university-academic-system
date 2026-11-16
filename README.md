@@ -40,3 +40,31 @@ reason for choosing this:
 Join table is for Lecturer↔Course because the assignment says no separate entity, and there are no extra attributes.
 Join entity is for Student↔Course because the relationship carries its own data (date, year, semester, status, grade), so it must be a real entity with two @ManyToOne links.
 Foreign key goes on the “many” side of every one-to-many.
+
+
+
+#### screenshots 
+
+
+## Entity Relationship Diagram
+![ERD](docs/ERD.png)
+
+## Screenshots
+
+### 1. Application running and Hibernate creating tables
+![App running](docs/screenshots/app-running.png)
+
+### 2. Generated tables in PostgreSQL (7 tables)
+![Tables list](docs/screenshots/tables.png)
+
+### 3. Foreign key relationships
+![Foreign keys](docs/screenshots/foreign-keys.png)
+
+### 4. Registrations table (join entity)
+![Registrations columns](docs/screenshots/registrations-columns.png)
+
+### 5. Lecturer-Course join table
+![Join table](docs/screenshots/join-table.png)
+
+### 6. Schema
+![Sample data](docs/screenshots/schema.png)
